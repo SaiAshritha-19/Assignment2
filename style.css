@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+   
+  }
+  
+  .container {
+    max-width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid;
+    box-sizing: border-box;
+    justify-content: center;
+    border-radius: 30px;
+    box-shadow: 0px 4px 6px rgb(0, 1, 0);
+  
+  
+  }
+  
+  h2 {
+    color: #333;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  /* Registration Page styles */
+  #registrationForm label {
+    font-weight: bold;
+  }
+  
+  #registrationForm input[type="text"],
+  #registrationForm input[type="password"],
+  #registrationForm input[type="date"],
+  #registrationForm input[type="radio"] {
+    width: calc(100% - 10px);
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  #registrationForm input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #registrationForm input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Profile Page styles */
+  #profileData {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  #profileData p {
+    margin: 10px 0;
+  }
+  
+  /* Login Page styles */
+  #loginForm input[type="text"],
+  #loginForm input[type="password"] {
+    width: calc(100% - 10px);
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  #loginForm input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #loginForm input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
+  
+  
